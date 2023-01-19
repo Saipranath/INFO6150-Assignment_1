@@ -1,0 +1,173 @@
+.header{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    right: 2%;
+    width: 96%;
+    height: 6%;
+    background-color: aqua;
+    color: red;
+    
+}
+
+.body{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    right: 2%;
+    width: 96%;
+    height: 83%;
+    /*background-color: coral;*/
+    background-image: url("images/beans_1.webp");
+    /*background-image:  url("images/coffee_spl_bk2.jpeg");*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    color: black;
+    text-align: center;
+
+}
+
+.footer{
+    position: absolute;
+    top: 94%;
+    left: 2%;
+    right: 2%;
+    width: 96%;
+    height: 5%;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: brown;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(202, 56, 56);
+  }
+
+  input[type=text], input[type=tel], select {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit], button[type=submit] {
+    
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=reset] {
+    
+    background-color:rgba(255, 47, 0, 0.885);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=reset]:hover {
+    background-color: #f61f1f;
+  }
+  
+  input[type=submit]:hover, button[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  form{
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    color:whitesmoke;
+    font-size: large;
+    font-style:oblique;
+    backdrop-filter: blur(15px);
+  }
+
+  h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .menu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .menu td, .menu th{
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: large;
+  }
+
+  .menu tr:nth-child(even){
+    background-color: #eeee43;
+  }
+
+  .menu tr:nth-child(odd){
+    color: whitesmoke;
+    backdrop-filter: blur(10px);
+  }
+
+  .menu tr:hover {background-color:chartreuse;}
+
+  .menu th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: chocolate;
+    color: cornsilk;
+    font-size: larger;
+  }
+
+  .orderlink{
+    background-color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    border-radius: 5px;
+    
+  }
+
+  h2:hover{
+    background-color:burlywood;
+  }
+
+
