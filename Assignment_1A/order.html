@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Bene</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_coffee_shop.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <div class="header">
+            <ul>
+                <li><a href="index.html"><img src="images/favicon_coffee.ico" alt="Coffee Icon" height="20x" width="20px"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+        </div>
+        <div class="body">
+            <div style="margin: 130px;"></div>
+            <form title="Please fill the details to order" onsubmit="alert('Order Confirmed')">
+                <fieldset>
+                    <legend>Place your Order here</legend>
+                    <label for="fname">Full Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="fname" name="fname" placeholder="your full name..." required><br>
+                    <label for="phone">Mobile Number:</label>&nbsp;
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10 digit mobile number" ><br>
+                    <label for="oitem">Choose your Order</label>&nbsp;&nbsp;
+                    <select id="oitem" name="oitem">
+                    <option value="brewed coffee" selected>Brewed Coffee</option>
+                    <option value="cold brew">Cold Brew</option>
+                    <option value="chai latte">Chai Latte</option>
+                    <option value="iced tea">Iced Tea</option>
+                </select><br>
+                <!--input type="submit" value="Order"-->
+                <button type="submit" value="order")">Order</button>&nbsp;&nbsp;&nbsp;
+                <input type="reset">
+                </fieldset>
+                
+            </form>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 Coffee Bene</p>
+        </div>
+    </div>
+</body>
+</html>
